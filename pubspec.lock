@@ -34,39 +34,48 @@ packages:
     source: hosted
     version: "2.13.1"
   aud_audio_core:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
-      path: "../aud_audio_core"
-      relative: true
-    source: path
-    version: "0.6.0"
+      path: "."
+      resolved-ref: e5be8491576647870c49e53786d33c3ebf10dba9
+      tag-pattern: "{{version}}"
+      url: "git@github.com:audaudio/aud_audio_core.git"
+    source: git
+    version: "0.6.1"
   aud_audio_file:
     dependency: "direct main"
     description:
-      path: "../aud_audio_file"
-      relative: true
-    source: path
+      path: "."
+      resolved-ref: "2d1f4857f404b054d74f17816734341666125000"
+      tag-pattern: "{{version}}"
+      url: "git@github.com:audaudio/aud_audio_file.git"
+    source: git
     version: "0.1.0"
   aud_audio_graph:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
-      path: "../aud_audio_graph"
-      relative: true
-    source: path
-    version: "0.6.0"
+      path: "."
+      resolved-ref: "4de57aef0c99778861a185b1ecbe1df2f58df9ac"
+      tag-pattern: "{{version}}"
+      url: "git@github.com:audaudio/aud_audio_graph.git"
+    source: git
+    version: "0.6.1"
   aud_dsp_stretch:
     dependency: "direct main"
     description:
-      path: "../aud_dsp_stretch"
-      relative: true
-    source: path
-    version: "0.0.3"
+      path: "."
+      resolved-ref: cf5837ad20dfd94e4d6fed31f35816bbc1b9b88a
+      tag-pattern: "{{version}}"
+      url: "git@github.com:audaudio/aud_dsp_stretch.git"
+    source: git
+    version: "0.1.0"
   aud_midi_standard:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
-      path: "../aud_midi_standard"
-      relative: true
-    source: path
+      name: aud_midi_standard
+      sha256: "92559c6e1534b892f1029a3bb6c08a07f2e96cda1d0dcca227271d3e9353306c"
+      url: "https://pub.dev"
+    source: hosted
     version: "0.3.0"
   boolean_selector:
     dependency: transitive
