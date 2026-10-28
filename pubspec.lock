@@ -46,7 +46,7 @@ packages:
       path: "../aud_audio_file"
       relative: true
     source: path
-    version: "0.0.3"
+    version: "0.1.0"
   aud_audio_graph:
     dependency: "direct overridden"
     description:
